@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Talk with Charlie AI</title>
+  <link rel="stylesheet" href="charlie.css">
+</head>
+<body>
+
+  <!-- HERO SECTION -->
+  <div id="hero-section">
+
+    <div id="hero-avatar-wrapper">
+        <img id="hero-avatar" src="https://png.pngtree.com/png-clipart/20250514/original/pngtree-a-white-and-orange-robot-with-blue-eyes-png-image_20967577.png" alt="Charlie AI Avatar">
+    </div>
+
+    <h1 id="hero-title">Charlie AI</h1>
+    <p id="hero-subtitle">Your personal intelligent assistant</p>
+
+  </div>
+
+  <!-- Floating Chat Button -->
+  <div id="chat-bubble">💬</div>
+
+  <!-- Chat Window -->
+  <div id="assistant-window" class="hidden">
+
+      <div id="chat-header">
+        <span>Charlie AI</span>
+        <button id="closeChat">✖</button>
+      </div>
+
+      <div id="messages"></div>
+
+      <div id="input-section">
+        <input id="userInput" placeholder="Type or talk..." autocomplete="off">
+        <button id="micBtn" class="round-btn">🎤</button>
+        <button id="sendBtn" class="primary-btn">Send</button>
+        <button id="stopBtn" class="danger-btn">🛑</button>
+      </div>
+
+  </div>
+
+  <script src="charlie.js"></script>
+</body>
+</html>
